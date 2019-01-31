@@ -1,34 +1,48 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>
-        Politico-signup
-    </title>
-</head>
-    <body bgcolor='#efaa32'; style="font-family: Garamond">
+    <head>
+        <meta charset='utf-8'/>
+        <title>Politico-signup</title>
+        <link rel='stylesheet' href='signup.css'>
+    </head>
+    
+    <body>
+    
+        <header>
+            <h2>Welcome to Politico<br/></h2>
+            <h3><em>where elections are simplified</em></font></h3>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="signin.html">Sign-in</a></li>
+                <li><a href="profile.html">Profile</a></li>
+
+            
+            </ul>
+         </header>
+
+        <div class="signup-box">
+            <h1>Sign-up</h1>
+
+            <img src="name.png" class='image'><br>
+            <input class='textbox' type="text" placeholder='Name' name="fullname" /><br>
+                
+            <img src="email.png" class='image'><br>
+            <input class='textbox' type="email" placeholder='Email' email='emailaddress' /><br>
+                
+            <img src="password.png" class='image'><br>
+            <input class='textbox' type="password" placeholder='Password' password='userpassword' /><br>
+                
+            <input class='radio' type="radio" name="user" value="citizen">Citizen<br>
+            <input class='radio' type="radio" name="user" value="politician">Politician<br>
+                
+            <input class='button' type="button" name="" value="Sign Up">
+            <p>Already have an account? <a href="signin.html">Sign-in</a> </p>
+        </div>
+
         
-        <header style='font-family:Trebuchet MS; text-align:center'>
-                <h2>Welcome to Politico<br/><font size = '2'><em>where elections are simplified</em></font></h2>
-        </header>
-
-        <form action="";style='text-align:center'>
-
-            <img src="name.png" style="width:20px;height:20px">
-            Name<br>
-            <input type="text" name="fullname"/><br>
-
-            <img src="email.png" style="width:20px;height:20px">
-            Email<br>
-            <input type="email" email='emailaddress'/><br>
-
-            <img src="password.png" style="width:20px;height:20px">
-            Password<br>
-            <input type="password" password='userpassword'/><br>
-
-            <input type="radio" name="user" value="citizen">Citizen<br>
-            <input type="radio" name="user" value="politician">Politician<br>
-
-        </form>
+        <footer>
+            <p>--by Dennis Iruguthu</p>
+        </footer>
 
     </body>
 </html>
