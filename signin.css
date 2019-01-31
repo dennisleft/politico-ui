@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(bg.jpg);
+    background-size: cover;
+    font-family: 'Trebuchet MS';
+    color: antiquewhite;
+}
+.image{
+    width: 30px;
+    height: 20px;
+    background: antiquewhite;
+}
+
+.full{
+    width: 350px;
+    height: 400px;
+    padding: 10px;
+    background:black;
+    color: antiquewhite;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    
+}
+.textbox{
+    width: 90%;
+    height: 30px;
+    color: black;
+}
+.button{
+    width: 80%;
+    margin: 5px;
+    color: antiquewhite;
+    background: none;
+    border: 2px solid ;
+    font-size: 15px;
+    cursor: pointer;
+}
